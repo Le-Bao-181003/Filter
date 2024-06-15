@@ -56,6 +56,7 @@ python src/train.py trainer.max_epochs=20 data.batch_size=64
 ```
 
 ## Results
+You can see result in folder deploy/outputs
 
-I have trained the pre-trained ResNet18 model on ImageNet with the IBUG 300w dataset for 100 epochs. 
-- You can also download the model checkpoint from [here](https://drive.google.com/drive/folders/1Gk5c9BTwBVIxR8TdIx89jSUVQteW4uM4?usp=sharing).
+I have trained the pre-trained ResNet18 model on ImageNet with the IBUG 300w dataset for 20 epochs. 
+Model checkpoint in deploy/checkpoints
